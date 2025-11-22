@@ -6,39 +6,142 @@
     <link rel="stylesheet" href="styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css"> 
+    <script src="/Users/emilyyip/Desktop/zoox_website/zoox_paper/script.js"></script>
 
 </head>
 
 <body>
-    <div id="intro">
+    <div id="scroll-progress"></div>
+
+    <nav class="sidebar">
+
+        <h3>Jump to a section</h3>
+
+        <ul>
+
+        <li><a href="#metric-grid">Introduction</a></li>
+
+          <li><a href="#metric-grid">Safety Metrics</a></li>
+
+          <li><a href="vid">Safety Innovations</a></li>
+
+          <li><a href="#btd">Beyond The Data</a></li>
+
+          <li><a href="#ref">References</a></li>
+
+        </ul>
+
+    </nav>
+
+    <div id="writing">
+
         <h1>How does the autonomous vehicle industry prove that their technology is safe?</h1>
-        <p class = "school"> By Emily Yip</p>
-        <p class="citation">
+
+        <p class = "name"> By Emily Yip</p>
+
+        <p class="writing">
             Autonomous vehicles (AV) are transforming modern transportation. As AV companies expand into various 
             metropolitan cities such as San Francisco, Las Vegas, and Phoenix, concerns regarding 
-            passenger safety continue to shape public perception. Understanding how autonomous car companies demonstrate 
-            that their vehicles are safe is critical to gaining public trust and successful widespread deployment. This document provides an 
-            overview of the methods and data that AV companies employ to communicate the safety of their vehicles.
+            passenger safety continue to shape public perception. Understanding how AV companies demonstrate 
+            that their vehicles are safe is critical to gaining public trust and successful widespread deployment. 
+            This document provides an overview of the methods and data that AV companies employ to communicate the 
+            safety of their vehicles.
         </p>
-    </body>
 
     <div class="metric-grid">
+
         <div class="metric-item">
+
             <p><strong>National Highway Traffic Safety Administration (NHTSA) Framework for Automated Driving Safety (ADS)</strong> 
-                Text</p>
+                A framework that outlines how AV developers should design, test, and validate their vehicles.</p>
+
         </div>
+
         <div class="metric-item">
+
             <p><strong> ISO 26262</strong> 
+
                 international standard for functional safety in road vehicles
                 point.</p>
         </div>
+
         <div class="metric-item">
-            <p><strong>ISO 21434</strong> 
-                text</p>
+
+            <p><strong>ISO 21448 (SOTIF - Safety of the Intended Functionality)</strong> 
+                Addresses safety risks that arise from a system functioning as intended,
+            but acts in a way that is unsafe or unexpected in specific situations
+            </p>
+
         </div>
+
         <div class="metric-item">
-            <p><strong>UL 4600</strong> 
-                international safety standard for autonomous vehicles</p>
+
+            <p>
+                <strong>UL 4600</strong> 
+                international safety standard for autonomous vehicles
+            </p>
+
         </div>
+
     </div>
+
+        <h2>Safety Metrics</h2>
+    
+        <p> AV companies evaluate their cars on these metrics and compare them to human crash benchmarks to highlight that autonomy can actually
+            be safer than human driving. The human crash benchmarks are public data published by the NHTSA.</p>
+    
+
+        <div class="metric-box">
+
+            <h2 class = "same"> Metrics</h2>
+        
+                <div class = "metric-buttons">
+                
+                    <div class = "m-button" data-hover = "Text">Airbag Deployment Crashes</div>
+
+                    <div class = "m-button" data-hover = "Text">Injury Causing Crashes</div>
+
+                    <div class = "m-button" data-hover = "Text"> Pedestrian Crashes</div>
+
+                    <div class = "m-button" data-hover = "Text"> Cyclist Crashes</div>
+
+                    <div class = "m-button" data-hover = "Text">Motorcycle Crashes</div>
+
+                    <div class = "m-button" data-hover = "Text">Delta V</div>
+
+                    <div class = "m-button" data-hover = "Text">Vehicle to Vehicle</div>
+            
+                </div>
+            
+        </div>
+        
+        <h2 class = "same">Safety Innovations</h2>
+
+        <p> Companies also show the safety of their vehicles by highlighting safety innovation features. For example, Zoox employs a bidirectional 
+            vehicle design, a four wheel independent steering, braking system, a seatbelt crash avoidance system, and an independent redundant backup 
+            systems that they detail in their safety innovation report. Zoox also includes a Missions Operations Team that monitors the health of the 
+            robotaxis real time, </p>
+
+        <h2 class = "btd">Beyond the Data</h2>
+
+        <p>One of the most effective methods in building the credibility of autonomous vehicles is community outreach. 
+            From someone who has been in an AV before, describing my positive experience to my family and friends transforms 
+            their safety concerns into excitement for the future of autonomous technology. <br><br>
+            
+            Zoox does community outreach by holding hands-on first responder training workshops to help them identify emergency safety functions 
+            and address concerns (Zoox, 2025a). Zoox also includes testimonial messages from members of the police and fire departments 
+            from its operating cities in its safety report. <br><br>
+
+            Waymo also has its own Community Partners division, where they collaborate with organizations both local to San 
+            Francisco and nation-wide to spread awareness on the accessibility and safety of their vehicles (Waymo, 2025). 
+            Waymo has partnered with local San Francisco nonprofits such as the Lighthouse for the Blind SF and The Epilepsy Foundation 
+            to demonstrate that their vehicles as a safe transportation option for disabled communities. To spark interest in AV 
+            in the broader population, Waymo also sponsors content creators such as Veritasium to document their experience of riding in a Waymo vehicle.
+        </p>
+
+        <h2 class = "ref">References</h2>
+
+    </div>
+
+    </body>
 </html>
