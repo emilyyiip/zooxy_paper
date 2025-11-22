@@ -127,17 +127,17 @@ name{
   }
 
   .safety-text {
-    max-width: 400px;                
+    max-width: 300px;                
     line-height: 1.6;
   }
   
   .metric-box {
     background: #edf5f2;
-    padding: 10px 10px 10px 10px;
-    margin: 40px auto;
-    border-radius: 20px;
+    padding: 5px 5px 5px 5px;
+    margin: 20px auto;
+    border-radius: 7px;
     width: 100%;
-    max-width: 800px;
+    max-width: 700px;
   }
   
   .metric-box h2 {
@@ -148,15 +148,15 @@ name{
   
   .metric-buttons {
     display: flex;
-    gap: 10px 30px ;
+    gap: 10px 10px ;
     flex-wrap: wrap;
     justify-content: center;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   }
 
   .m-button {
     background: #d4e8e3;
-    padding: 18px 38px;
+    padding: 12px 20px;
     border-radius: 20px;
     font-size: 0.90rem;
     text-align: center;
@@ -182,4 +182,5 @@ name{
 
 .m-button:hover::after {
   opacity: 1;
+  font-size: 0.80rem;
 }
