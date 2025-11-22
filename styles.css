@@ -121,17 +121,9 @@ name{
   }
   
   @media (max-width: 900px) {
-    .sidebar-toc {
+    .sidebar {
       display: none;
     }
-  }
-
-  .safety{
-    display: flex;
-    gap: 40px;
-    justify-content: center;
-    align-items: start;
-    grid-template-columns: 1fr 400px; 
   }
 
   .safety-text {
@@ -162,7 +154,6 @@ name{
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   }
 
-  
   .m-button {
     background: #d4e8e3;
     padding: 18px 38px;
