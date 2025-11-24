@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>How does the autonomous vehicle industry show that their technology is safe?</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
-    <link rel="stylesheet" href="https://rsms.me/inter/inter.css"> 
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <script src="/Users/emilyyip/Desktop/zoox_website/zoox_paper/script.js"></script>
 
 </head>
@@ -19,17 +20,17 @@
 
         <ul>
 
-        <li><a href="#intro"> 01. Introduction</a></li>
+            <li><a href="#introduction"> 01. Introduction</a></li>
 
-          <li><a href="#safety"> 02. Safety Metrics</a></li>
+            <li><a href="#safety-metrics"> 02. Safety Metric Data</a></li>
 
-          <li><a href="#testsim">03. Testing and Simulation</a></li>
+            <li><a href="#test-sim">03. Test and Simulation Data</a></li>
 
-          <li><a href="#safin">04. Safety Innovations</a></li>
+            <li><a href="#safety-innovation">04. Safety Innovations</a></li>
 
-          <li><a href="#btd">05. Beyond The Data</a></li>
+            <li><a href="#beyond-the-data">05. Beyond The Data</a></li>
 
-          <li><a href="#ref">06. References</a></li>
+            <li><a href="#references">06. References</a></li>
 
         </ul>
 
@@ -37,178 +38,268 @@
 
     <div id="writing">
 
-        <section id = "intro">
+        <section id="introduction">
 
-        <h1>How does the autonomous vehicle industry show that their technology is safe?</h1>
+            <h1>How does the autonomous vehicle industry show that their technology is safe?</h1>
 
-        <p class = "name"> By Emily Yip</p>
-
-        <p>
-            Autonomous vehicles (AV) are transforming modern transportation. As AV companies expand into various 
-            metropolitan cities such as San Francisco, Las Vegas, and Phoenix, concerns regarding 
-            passenger safety continue to shape public perception. Understanding how AV companies demonstrate 
-            that their vehicles are safe is critical to gaining public trust and successful widespread deployment. 
-            This document provides an overview of the methods and data that AV companies employ to communicate the 
-            safety of their vehicles.
-        </p>
-
-        <p> AV companies adhere to the following standards for the development of their vehicles:</p>
-
-    <div class="metric-grid">
-
-        <div class="metric-item">
-
-            <p><strong>National Highway Traffic Safety Administration (NHTSA) Framework for Automated Driving Safety (ADS)</strong> 
-
-                A framework that outlines how AV developers should design, test, and validate their vehicles.</p>
-
-        </div>
-
-        <div class="metric-item">
-
-            <p><strong> ISO 26262</strong> 
-
-                International standard for functional safety in road vehicles
-                point.</p>
-        </div>
-
-        <div class="metric-item">
-
-            <p><strong>ISO 21448 (SOTIF - Safety of the Intended Functionality)</strong> 
-
-                Addresses safety risks that arise from a system functioning as intended,
-            but acts in a way that is unsafe or unexpected in specific situations
-            </p>
-
-        </div>
-
-        <div class="metric-item">
+            <p class="name"> By Emily Yip</p>
 
             <p>
-                <strong>UL 4600</strong> 
-                international safety standard for autonomous vehicles
+                Autonomous vehicles (AV) are transforming modern transportation. As AV companies expand into various
+                metropolitan cities such as San Francisco, Las Vegas, and Phoenix, concerns regarding
+                passenger safety continue to shape public perception. Understanding how AV companies demonstrate
+                that their vehicles are safe is critical to gaining public trust and successful widespread deployment.
+                This document provides an overview of the methods and data that AV companies employ to communicate the
+                safety of their vehicles.
             </p>
 
-        </div>
+            <p> AV companies adhere to the following standards for the development of their vehicles:</p>
 
-    </div>
+            <div class="metric-grid">
 
-    </section>
+                <div class="metric-item">
 
-    <section id = "safety">
+                    <p><strong>National Highway Traffic Safety Administration (NHTSA) Framework for Automated Driving
+                            Safety (ADS)</strong>
 
-        <h2>Safety Metrics</h2>
-    
-        <p> AV companies evaluate their vehicles on the following metrics and compare them to human crash benchmarks to highlight that they can actually
-            be safer than human driving. The human crash benchmarks are public data published by the NHTSA.</p>
-    
+                        A framework that outlines how AV developers should design, test, and validate their vehicles.
+                    </p>
 
-        <div class="metric-box">
-
-            <h2 class = "same"> Metrics</h2>
-        
-                <div class = "metric-buttons">
-                
-                    <div class = "m-button" data-hover = "Collision with enough force to trigger the airbag system">Airbag Deployment Crashes</div>
-
-                    <div class = "m-button" data-hover = "Serious injuries and any reported injuries">Injury Causing Crashes</div>
-
-                    <div class = "m-button" data-hover = "Text"> Pedestrian crashes</div>
-
-                    <div class = "m-button" data-hover = "Text"> Cyclist crashes</div>
-
-                    <div class = "m-button" data-hover = "Text">Motorcycle crashes</div>
-
-                    <div class = "m-button" data-hover = "Change in velocity during a collision">Delta V</div>
-
-                    <div class = "m-button" data-hover = "Text">Incidents per million miles (IPMM)</div>
-
-                    <div class = "m-button" data-hover = "Text">Miles driven before a collision</div>
-
-                    <div class = "m-button" data-hover = "Intersection, head-on, single vehicle, front to rear">Vehicle to vehicle collisions</div>
-            
                 </div>
-            
-        </div>
 
-    </section>
+                <div class="metric-item">
 
-    <section id = "testsim">
+                    <p><strong> ISO 26262</strong>
 
-        <h2 class = "testsim">Testing and Simulations</h2>
+                        International standard for functional safety in road vehicles
+                        point.</p>
+                </div>
 
-        <div class = "sim-panel">
+                <div class="metric-item">
 
-            <div class = "panel">
+                    <p><strong>ISO 21448 (SOTIF - Safety of the Intended Functionality)</strong>
 
-                <h3> Sensors</h3>
+                        Addresses safety risks that arise from a system functioning as intended,
+                        but acts in a way that is unsafe or unexpected in specific situations
+                    </p>
 
-                <p> Text</p>
-                
+                </div>
+
+                <div class="metric-item">
+
+                    <p>
+                        <strong>UL 4600</strong>
+                        international safety standard for autonomous vehicles
+                    </p>
+
+                </div>
+
             </div>
 
-            <div class = "panel">
+            <p class="citations"> Kooper, Kerrell, Fratnik, 2019 </p>
 
-                <h3> Objects</h3>
+            <p>These standards establish baseline safety standards for the production and functions of autonomous
+                vehicles. They ensure that the vehicles have consistent
+                system performance, which provides transparency and builds public confidence. </p>
 
-                <p> Text</p>
-                
+
+        </section>
+
+        <section id="safety-metrics">
+
+            <h2>Safety Metric Data</h2>
+
+            <p> AV companies evaluate their vehicles on the following metrics and compare them to human crash benchmarks
+                to highlight that they can actually
+                be safer than human driving. The human crash benchmarks are <a href="https://cdan.dot.gov/ target="
+                    _blank" rel="noopener noreferrer">public data</a>
+                published by the NHTSA.</p>
+
+
+            <div class="metric-box">
+
+                <h2 class="same"> Metrics</h2>
+
+                <div class="metric-buttons">
+
+                    <div class="m-button" data-hover="Collision with enough force to trigger the airbag system">Airbag
+                        Deployment Crashes</div>
+
+                    <div class="m-button" data-hover="Serious injuries, and general injuries">Injury Causing Crashes
+                    </div>
+
+                    <div class="m-button" data-hover="Crashes involving pedestrians across all road environments">
+                        Pedestrian crashes</div>
+
+                    <div class="m-button" data-hover="Crashes involving cyclists across all road environments"> Cyclist
+                        crashes</div>
+
+                    <div class="m-button" data-hover="Crashes involving motorcycles across all road environments">
+                        Motorcycle crashes</div>
+
+                    <div class="m-button" data-hover="Change in velocity during a collision">Delta V</div>
+
+                    <div class="m-button"
+                        data-hover="Rates reflect the number of reported incidents per million miles of on-road operation">
+                        Incidents per million miles (IPMM)</div>
+
+                    <div class="m-button" data-hover="Text">Miles driven before a collision</div>
+
+                    <div class="m-button" data-hover="Failures are detected in the technology, systems">Disengagement
+                        Events</div>
+
+                    <div class="m-button" data-hover="Intersection, head-on, single vehicle, front to rear">Vehicle to
+                        vehicle collisions</div>
+
+                </div>
+
+                <p class="citations"> Waymo Safety, 2025; Tesla Fully Self Driving (FSD) Safety Report, 2025; National
+                    Center for Statistics and Analysis, 2025</p>
+
             </div>
 
-            <div class = "panel">
+            <p> Data such as injury causing crashes and vehicle to vehicle collisions tell how often crashes occur and
+                their severity, showing that their vehicles reduce the chances of life-threatening events. Delta-V and
+                incidents per
+                million miles provide operational insight into how their vehicles anticipate hazards and handle complex
+                scenarios. These metrics combined indicate whether an autonomous system is actually safer than a human
+                driver, how it behaves in risky environments, and where it could improve in performance, building
+                transparency and public trust.</p>
 
-                <h3> Mapping</h3>
+        </section>
 
-                <p> Text</p>
-                
+        <section id="test-sim">
+
+            <h2 class="testsim">Test and Simulation Data</h2>
+
+            <p>AV Companies rigorously test their vehicles through simulations that recreate high risk edge cases using
+                sensors, labelled objects, and highly detailed mapping. </p>
+
+            <div class="sim-panel">
+
+                <div class="panel">
+
+                    <div class="panel-header">
+
+                        <img src=assets/sensor.png class="panel-icon">
+
+                        <h3> Sensors</h3>
+
+                    </div>
+
+                    <p> AV companies use light and detection ranging data (LiDAR) to measure depth from a vehicle to
+                        objects, enabling the creation of a detailed 3D mapping of its surroundings.<br><br>
+
+                        Vehicles also use radars for real-time speed and distance measurements. Radars excel in harsher
+                        weather and lighting conditions. <br><br>
+
+                        Long wave and infared cameras are used to detect pedestrians in low light and provide visibility
+                        through fog and smoke.
+
+                    </p>
+
+                </div>
+
+                <div class="panel">
+
+                    <div class="panel-header">
+
+                        <img src=assets/objects.png class="panel-icon">
+
+                        <h3> Objects</h3>
+
+                    </div>
+
+                    <p>Extensively labelled object datasets are needed to simulate realistic scenarios. Companies use
+                        various 3D and 2D semantic segmentation labels, video camera data, and features
+
+                        per pixel ray information. They include images ranging from pedestrians and bicyclists to road
+                        signs and vegetation, ensuring their models are generalizable to all roads. </p>
+
+                </div>
+
+                <div class="panel">
+
+                    <div class="panel-header">
+
+                        <img src=assets/map.png class="panel-icon">
+
+                        <h3> Mapping</h3>
+
+                    </div>
+
+                    <p> Detailed mapping of roads in operating cities is critical to AV performance. AV companies create
+                        3D maps of road graph segments, which includes boundaries, road signs, bumps, and entrances to
+                        driveways. These maps also store semantic information such as which lanes pedestrians will
+                        typically cross in and traffic flows on busier intersections. </p>
+
+                </div>
+
             </div>
-            
-        </div>
 
-        <p>AV companies post videos of their vehicles navigating complex traffic situations that could have been easily misnavigated by a human being.
-        For example, Aurora uploaded footage of their truck navigating aggressive swerves and tire blowouts on their website. Waymo also posts videos on
-        their Youtube channel of their vehicle navigating road occlusions and sudden pedestrian appearances.
-        </p>
+            <p> With this data, companies can conduct large-scale simulations and road testing to show the safety of
+                their vehicles. To make these results more transparent, they also share footage of their vehicles
+                navigating challenging traffic scenarios. For instance, Aurora uploads videos of their truck navigating
+                aggressive swerves and tire blowouts on their website, while Waymo posts videos of their vehicle
+                navigating road occlusions and sudden pedestrian appearances on their Youtube channel.
+            </p>
 
-    </section>
+        </section>
 
-    <section id = "safin">
-        
-        <h2 class = "same">Safety Innovations</h2>
+        <section id="safety-innovation">
 
-        <p> AV companies show the safety of their vehicles by highlighting safety innovation features. For example, Zoox employs a bidirectional 
-            vehicle design, a four wheel independent steering, braking system, a seatbelt crash avoidance system, and an independent redundant backup 
-            systems as detailed in their safety innovation report. Zoox also includes a Missions Operations Team that monitors the health of the 
-            robotaxis real time, ensuring safety during the ride.</p>
-    
-    </section>
+            <h2 class="same">Safety Innovations</h2>
 
-    <section id = "btd">
+            <p> AV companies show the safety of their vehicles by highlighting safety innovation features. Zoox
+                emphasizes their bidirectional
+                vehicle design, a four wheel independent steering, braking system, seatbelt crash avoidance system, and
+                independent redundant backup
+                systems on their website . Zoox also includes a Missions Operations Team that monitors the health of the
+                robotaxis real time, ensuring safety during the ride.
+            </p>
 
-        <h2 class = "btd">Beyond the Data</h2>
+        </section>
 
-        <p>One of the most effective methods in building the credibility of autonomous vehicles is community outreach. 
-            As someone who has been in an AV before, describing my positive experience to my family and friends usually turns 
-            their safety concerns into enthusiasm for the future of autonomous technology. <br><br>
-            
-            Zoox does community outreach by holding first responder training workshops to help them identify emergency safety functions in the vehicle. 
-            Zoox also includes testimonial messages from members of the police and fire departments from its operating cities in its safety report. <br><br>
+        <section id="beyond-the-data">
 
-            Waymo also has its own Community Partners division, where they collaborate with organizations both local to San Francisco and nationwide, 
-            such as Lighthouse for the Blind SF and The Epilepsy Foundation to spread awareness on the accessibility and safety of their vehicles for the disabled 
-            (Waymo, 2025). To spark interest in AV in the broader population, Waymo also sponsors content creators to document their experience of riding in a Waymo vehicle
-            for the first time.
-        </p>
-    
-    </section>
+            <h2 class="btd">Beyond the Data</h2>
 
-    <section id = "ref">
+            <p>One of the most effective methods in building the credibility of autonomous vehicles is community
+                outreach.
+                As someone who has been in an AV before, describing my positive experience to my family and friends
+                immediately turns
+                their safety concerns into enthusiasm for the future of autonomous technology. <br><br>
 
-        <h2 class = "ref">References</h2>
-    
-    </section>
+            <div class="bar">
+
+                <p><strong>Zoox</strong><br>
+                    First responder training workshops are held to train workers to identify emergency safety functions
+                    in the vehicle.
+                    Zoox also includes testimonial messages from members of the police and fire departments from its
+                    operating cities. <br><br>
+
+                    <strong>Waymo</strong><br>
+                    The Comunity Partners division collaborates with organizations both local to San Francisco and
+                    nationwide,
+                    such as Lighthouse for the Blind SF and The Epilepsy Foundation to spread awareness on the
+                    accessibility and safety of their vehicles for the disabled
+                    (Waymo, 2025). To spark interest in AV in the broader population, Waymo also sponsors content
+                    creators to document their experience of riding in a Waymo vehicle
+                    for the first time.
+                </p>
+
+            </div>
+
+        </section>
+
+        <section id="references">
+
+            <h2 class="ref">References</h2>
+
+        </section>
 
     </div>
 
-    </body>
+</body>
+
 </html>

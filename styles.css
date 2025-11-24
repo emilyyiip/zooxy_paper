@@ -16,13 +16,20 @@ h1, h2, h3{
     font-weight: 300
 }
 
-h2-number{
-  color:rgba(122, 220, 180);
-}
-
 name{
     font-size: 0.9em;
     font-weight: 100;
+}
+
+.citations{
+  padding-left: 10px;
+  font-size: 0.7em;
+  font-weight: 100;
+}
+
+a{
+  text-decoration: underline;
+  color: black;
 }
 
 #scroll-progress {
@@ -40,12 +47,6 @@ name{
     grid-template-columns: repeat(4, 1fr);
     gap: 60px;
     margin: 0 auto;
-  }
-  
-  @media (max-width: 1200px) {
-    .metric-grid {
-      grid-template-columns: repeat(3, 1fr);
-    }
   }
   
   @media (max-width: 900px) {
@@ -69,6 +70,7 @@ name{
   .metric-item p {
     font-size: 0.85em;
     margin: 0;
+    padding:10px;
     line-height: 1.4;
   }
 
@@ -76,7 +78,7 @@ name{
     position: fixed;
     top: 200px;              
     left: 20px;
-    width: 200px;
+    width: 210px;
     padding: 20px;
     border-radius: 16px;
     padding-left: 20px; 
@@ -141,7 +143,7 @@ name{
     margin: 20px auto;
     border-radius: 7px;
     width: 100%;
-    max-width: 700px;
+    max-width: 750px;
   }
   
   .metric-box h2 {
@@ -193,14 +195,36 @@ name{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  max-width: 1200px;
+  max-width: 900px;
   margin: 10px auto;
 }
 
 .panel {
   background: #ffffff;
-  padding: 20px;
+  padding: 10px;
+  gap: 10px;
   border-radius: 12px;
   border: 1px solid #e4e4e4;
   line-height: 1.6;
+}
+
+.panel-header{
+  display:flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.panel-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.panel p {
+  font-size: 0.9em;
+}
+
+.bar{
+  border-left: 4px solid #d4e8e3; 
+  padding-left: 20px;  
+  display: block; 
 }
