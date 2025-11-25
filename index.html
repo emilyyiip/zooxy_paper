@@ -28,7 +28,9 @@
 
             <li><a href="#beyond-the-data">04. Beyond the Data</a></li>
 
-            <li><a href="#references">05. References</a></li>
+            <li><a href="#conclusion">05. Conclusion</a></li>
+
+            <li><a href="#references">06. References</a></li>
 
         </ul>
 
@@ -67,7 +69,7 @@
 
                 <div class="metric-item">
 
-                    <p><strong> ISO 26262</strong>
+                    <p> <strong> ISO 26262</strong>
 
                         International standard for functional safety in road vehicles.</p>
                 </div>
@@ -84,8 +86,7 @@
 
                 <div class="metric-item">
 
-                    <p>
-                        <strong>UL 4600</strong>
+                    <p><strong>UL 4600</strong>
                         International safety standard for autonomous vehicles.
                     </p>
 
@@ -95,7 +96,8 @@
 
             <p class="citations"> Kooper et al., 2019 </p>
 
-            <p>These standards establish a foundation of baseline safety that guide the production and functionality of AVs. They ensure that the vehicles have consistent
+            <p>These standards establish a foundation of baseline safety that guide the production and functionality of
+                AVs. They ensure that the vehicles have consistent
                 system performance, which provides transparency and builds public confidence. </p>
 
 
@@ -105,7 +107,8 @@
 
             <h2>Safety Metric Data</h2>
 
-            <p> AV companies evaluate their vehicles on the following metrics to quantify their performance compared to human crash benchmarks. The human crash benchmarks are <a href="https://cdan.dot.gov">public data</a>
+            <p> AV companies evaluate their vehicles on the following metrics to quantify their performance compared to
+                human crash benchmarks. The human crash benchmarks are <a href="https://cdan.dot.gov">public data</a>
                 published by the NHTSA.</p>
 
 
@@ -115,19 +118,24 @@
 
                 <div class="metric-buttons">
 
-                    <div class="m-button" data-hover="Rate of collisions with enough force to trigger the airbag system">Airbag
+                    <div class="m-button"
+                        data-hover="Rate of collisions with enough force to trigger the airbag system">Airbag
                         deployment crashes</div>
 
-                    <div class="m-button" data-hover="Number of serious, minor, and general injuries">Injury causing crashes
+                    <div class="m-button" data-hover="Number of serious, minor, and general injuries">Injury causing
+                        crashes
                     </div>
 
-                    <div class="m-button" data-hover="Number of crashes involving pedestrians across all road environments">
+                    <div class="m-button"
+                        data-hover="Number of crashes involving pedestrians across all road environments">
                         Pedestrian crashes</div>
 
-                    <div class="m-button" data-hover="Number of crashes involving cyclists across all road environments"> Cyclist
+                    <div class="m-button"
+                        data-hover="Number of crashes involving cyclists across all road environments"> Cyclist
                         crashes</div>
 
-                    <div class="m-button" data-hover="Number of crashes involving motorcycles across all road environments">
+                    <div class="m-button"
+                        data-hover="Number of crashes involving motorcycles across all road environments">
                         Motorcycle crashes</div>
 
                     <div class="m-button" data-hover="Change in velocity during a collision">Delta-V</div>
@@ -136,12 +144,17 @@
                         data-hover="Number of reported incidents per million miles of on road operation">
                         Incidents per million miles (IPMM)</div>
 
-                    <div class="m-button" data-hover="Number of miles an AV drives before experiencing a crash">Miles driven before a collision</div>
+                    <div class="m-button" data-hover="Number of miles an AV drives before experiencing a crash">Miles
+                        driven before a collision</div>
 
-                    <div class="m-button" data-hover="Rate of an AV handing control to a human driver as a result of being presented with a safety risk">Disengagement
+                    <div class="m-button"
+                        data-hover="Rate of an AV handing control to a human driver as a result of being presented with a safety risk">
+                        Disengagement
                         Events</div>
 
-                    <div class="m-button" data-hover=" Rate, kind, and location of collisions, such as at intersections, off high-way roads, head-on, front to rear">Vehicle to
+                    <div class="m-button"
+                        data-hover=" Rate, kind, and location of collisions, such as at intersections, off high-way roads, head-on, front to rear">
+                        Vehicle to
                         vehicle collisions</div>
 
                 </div>
@@ -152,7 +165,7 @@
             </div>
 
             <p> By using these data metrics, prospective riders can understand how often crashes occur in AVs and
-                their severity. This quantification allows them to determine whether riding in an AV is 
+                their severity. This quantification allows them to determine whether riding in an AV is
                 actually safer than a human driver and where it could improve in performance, providing further
                 transparency.</p>
 
@@ -162,9 +175,11 @@
 
             <h2 class="testsim">Test and Simulation Data</h2>
 
-            <p>AV companies rigorously test the perception and localization ability of their vehicles through simulations that recreate edge cases
+            <p>AV companies rigorously test the perception and localization ability of their vehicles through
+                simulations that recreate edge cases
                 to prove that they can navigate high-risk scenarios that cannot be recreated on public roads.
-                Conducting and evaluating vehicle performance in these simulations require sensor data, labelled objects, and highly detailed mapping. </p>
+                Conducting and evaluating vehicle performance in these simulations require sensor data, labelled
+                objects, and highly detailed mapping. </p>
 
             <div class="sim-panel">
 
@@ -202,7 +217,9 @@
                     </div>
 
                     <p>Extensively labelled object datasets are needed to simulate realistic scenarios. Companies use
-                        various 3D and 2D semantic segmentations, bounding box labels on camera and LiDAR data, and key point labels on object frames. They include objects ranging from pedestrians and bicyclists to road
+                        various 3D and 2D semantic segmentations, bounding box labels on camera and LiDAR data, and key
+                        point labels on object frames. They include objects ranging from pedestrians and bicyclists to
+                        road
                         signs and vegetation, ensuring their models are generalizable to all roads. </p>
 
                 </div>
@@ -220,17 +237,20 @@
                     <p> Detailed mapping of roads in operating cities is critical to AV testing. AV companies create
                         3D maps of road segments, which includes boundaries, road signs, bumps, and entrances to
                         driveways. These maps also store semantic information such as which lanes pedestrians will
-                        typically cross in and traffic flows on busier intersections, allowing vehicles to learn more complex patterns in the data.</p>
+                        typically cross in and traffic flows on busier intersections, allowing vehicles to learn more
+                        complex patterns in the data.</p>
 
                 </div>
 
             </div>
 
-            <p class = "citations">Waymo Open Dataset, 2024; Safety Innovation at Zoox, 2018; Herb et al.,2024 </p>
+            <p class="citations">Waymo Open Dataset, 2024; Safety Innovation at Zoox, 2018; Herb et al.,2024 </p>
 
             <p> To communicate these results, AV companies share footage of their vehicles
-                navigating challenging traffic scenarios. Aurora uploads <a href = "https://aurora.tech/safety">videos</a> of their truck navigating
-                aggressive swerves and tire blowouts on their website, while Waymo posts <a href = "https://www.youtube.com/watch?v=hubWIuuz-e4">videos</a> of their vehicle
+                navigating challenging traffic scenarios. Aurora uploads <a href="https://aurora.tech/safety">videos</a>
+                of their truck navigating
+                aggressive swerves and tire blowouts on their website, while Waymo posts <a
+                    href="https://www.youtube.com/watch?v=hubWIuuz-e4">videos</a> of their vehicle
                 navigating road occlusions and sudden pedestrian appearances on their Youtube channel.
             </p>
 
@@ -242,7 +262,8 @@
 
             <p>One of the most effective methods in building the credibility of AVs is community
                 outreach.
-                As someone who has been in an autonomous vehicle before, describing my positive experience to my family and friends
+                As someone who has been in an autonomous vehicle before, describing my positive experience to my family
+                and friends
                 usually turns
                 their safety concerns into enthusiasm for the future of autonomous technology. <br><br>
 
@@ -250,15 +271,18 @@
 
                 <p><strong>Zoox</strong><br>
                     Workshops are held to educate first responders in identifying emergency safety functions
-                    in the vehicle. Zoox also published an emergency response guide and rescue sheet, which details how to properly interact with the vehicle in the event of an emergency.
-                    To strengthen credibility, Zoox includes testimonial messages from members of the police and fire departments in its
+                    in the vehicle. Zoox also published an emergency response guide and rescue sheet, which details how
+                    to properly interact with the vehicle in the event of an emergency.
+                    To strengthen credibility, Zoox includes testimonial messages from members of the police and fire
+                    departments in its
                     operating cities. <br><br>
 
                     <strong>Waymo</strong><br>
                     The Community Partners division collaborates with organizations both local to San Francisco and
                     nationwide,
                     such as Lighthouse for the Blind SF and The Epilepsy Foundation to spread awareness on the
-                    accessibility and safety of their vehicles for the disabled. To spark interest in autonomous driving in the broader population, Waymo also sponsors content
+                    accessibility and safety of their vehicles for the disabled. To spark interest in autonomous driving
+                    in the broader population, Waymo also sponsors content
                     creators to document their experience of riding in a Waymo vehicle
                     for the first time.
                 </p>
@@ -270,8 +294,12 @@
         <section id="conclusion">
 
             <h2 class="ref">Conclusion</h2>
-            <p> AV companies use various data metrics to communicate the safety of their vehicles, such as crash data and high-risk simulation testing results, as well as community outreach. As these companies continue to expand into increasingly complex environments, 
-                the importance of data-driven storytelling and transparency will only grow. Demonstrating accountability for safety is critical to gaining public trust in autonomous technology, and ultimately ensuring its long term sustainability.
+            <p> AV companies use various data metrics to communicate the safety of their vehicles, such as crash data
+                and high-risk simulation testing results, as well as community outreach. As these companies continue to
+                expand into increasingly complex environments,
+                the importance of data-driven storytelling and transparency will only grow. Demonstrating accountability
+                for safety is critical to gaining public trust in autonomous technology, and ultimately ensuring its
+                long term sustainability.
             </p>
 
         </section>
