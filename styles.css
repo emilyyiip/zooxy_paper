@@ -81,11 +81,11 @@ a {
 .sidebar {
   position: fixed;
   top: 200px;
-  left: 20px;
+  left: 30px;
   width: 210px;
   padding: 10px;
   border-radius: 16px;
-  padding-left: 10px;
+  padding-left: 20px;
   box-shadow: 0 0 3px rgba(122, 220, 180);
   border: 1px solid #e0e0e0;
   font-size: 15px;
